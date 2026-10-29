@@ -1,0 +1,36 @@
+{
+  "project": "/absolute/path/to/Project.fcproj",
+  "sequence_name": "Tutorial Cut",
+  "fps": 60,
+  "caption_language": "th",
+  "caption_track_name": "Subtitle",
+  "caption_style": { "size": 48.0, "anchor": "Bottom", "align": "Center" },
+
+  "sections": [
+    {
+      "name": "1 - Prep: sheet format",
+      "label": "Caribbean",
+      "speed": 3.0,
+      "segments": [
+        { "item": 4, "in": 44.0, "out": 80.0 }
+      ],
+      "captions": [
+        "ขั้นที่ 1 · เตรียมข้อมูลใน sheet ให้ตรง format"
+      ]
+    },
+    {
+      "name": "2 - Builder: Parse Content",
+      "label": "Violet",
+      "speed": 2.0,
+      "comment": "shows up in the Markers panel",
+      "segments": [
+        { "item": 4, "in": 193.4, "out": 215.0 },
+        { "item": 3, "in": 0.5,   "out": 19.2 }
+      ],
+      "captions": [
+        "ขั้นที่ 2 · เลือกไฟล์ .xlsx แล้วเลือก Sheet",
+        "ตั้ง Skill ให้ตรงกับ Sheet ทุกครั้ง"
+      ]
+    }
+  ]
+}
