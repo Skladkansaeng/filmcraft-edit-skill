@@ -11,7 +11,7 @@ to prove the result loads.
 ## Install
 
 ```bash
-git clone <this repo> ~/src/filmcraft-edit-skill
+git clone https://github.com/Skladkansaeng/filmcraft-edit-skill ~/src/filmcraft-edit-skill
 ln -s ~/src/filmcraft-edit-skill/.claude/skills/filmcraft-edit ~/.claude/skills/filmcraft-edit
 ```
 

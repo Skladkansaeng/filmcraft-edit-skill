@@ -4,3 +4,5 @@ __pycache__/
 *.fcproj
 *.fcproj.bak*
 *.png
+*.mov
+*.mp4
